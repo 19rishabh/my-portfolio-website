@@ -5,42 +5,42 @@ import useEmblaCarousel from "embla-carousel-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "KhetGuru",
+    description: "A one-stop AI-powered platform that helps farmers with crop recommendations, real time monitoring and disease detection.",
+    image: "/projects/KhetGuru.png",
+    tags: ["CNN", "Tensorflow", "GenAI"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/CodeNPray/KhetGuru",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "AlphaEngine",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "A quantitative trading platform that leverages algorithmic models and machine learning to backtest and analyze investment strategies.",
+    image: "/projects/AlphaEngine.png",
+    tags: ["Scikit-learn", "Pandas", "Docker"],
+    demoUrl: "https://algorithmic-trading-engine-production.up.railway.app/",
+    githubUrl: "https://github.com/19rishabh/algorithmic-trading-engine",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "StreamStash",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "MERN-based streaming platform that brings movies to life with user authentication, recommendations and a modern interface.",
+    image: "/projects/StreamStash.png",
+    tags: ["MERN", "TMDB Api", "JWT Auth"],
+    demoUrl: "https://streamstash.onrender.com/",
+    githubUrl: "https://github.com/19rishabh/StreamStash",
   },
   {
     id: 4,
-    title: "AI Content Generator",
+    title: "AskMyDocs",
     description:
-      "A web application that leverages AI to generate marketing copy and blog posts.",
-    image: "/projects/project4.png", 
-    tags: ["Next.js", "OpenAI", "Prisma"],
+      "Secure document Q&A System using the Retrieval-Augmented Generation(RAG) framework.",
+    image: "/projects/AskMyDocs.png", 
+    tags: ["Langchain", "HuggingFace", "Streamlit"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/19rishabh/RAG",
   },
 ];
 
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
               {projects.map((project) => (
                 // Each slide needs a specific flex basis
                 <div
-                  className="flex-grow-0 flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-4"
+                  className="flex-grow-0 flex-shrink-0 w-full md:w-1/2 lg:w-1/3 p-3"
                   key={project.id}
                 >
                   <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover h-full flex flex-col">
