@@ -20,7 +20,7 @@ const projects = [
     image: "/projects/AlphaEngine.png",
     tags: ["Scikit-learn", "Pandas", "Docker"],
     demoUrl: "https://algorithmic-trading-engine-production.up.railway.app/",
-    githubUrl: "https://github.com/19rishabh/algorithmic-trading-engine",
+    githubUrl: "https://github.com/19rishabh/AlphaEngine",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const projects = [
     image: "/projects/AskMyDocs.png", 
     tags: ["Langchain", "HuggingFace", "Streamlit"],
     demoUrl: "#",
-    githubUrl: "https://github.com/19rishabh/RAG",
+    githubUrl: "https://github.com/19rishabh/AskMyDocs-RAG",
   },
 ];
 
